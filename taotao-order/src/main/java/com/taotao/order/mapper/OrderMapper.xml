@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.taotao.order.mapper.OrderMapper" >
+	
+	<select id="getOrderList" resultType="com.taotao.order.pojo.Order">
+		SELECT
+		a.order_id,
+		a.payment,
+		a.payment_type,
+		a.`status`,
+		a.create_time,
+		a.post_fee,
+		a.user_id,
+		a.buyer_message,
+		a.buyer_nick
+	FROM
+		`tb_order` a
+	LEFT JOIN tb_user b ON a.user_id = b.id
+	where userId=#{userId};
+	</select>
+
+</mapper>

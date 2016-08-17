@@ -1,0 +1,339 @@
+2016-08-04 15:59:15,757 [http-bio-8082-exec-8] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Rendering view [org.springframework.web.servlet.view.JstlView: name 'item'; URL [/WEB-INF/jsp/item.jsp]] in DispatcherServlet with name 'taotao-portal'
+2016-08-04 15:59:15,757 [http-bio-8082-exec-8] [org.springframework.web.servlet.view.JstlView]-[DEBUG] Added model object 'itemId' of type [java.lang.Long] to request in view with name 'item'
+2016-08-04 15:59:15,757 [http-bio-8082-exec-8] [org.springframework.web.servlet.view.JstlView]-[DEBUG] Added model object 'item' of type [com.taotao.portal.pojo.ItemInfo] to request in view with name 'item'
+2016-08-04 15:59:15,757 [http-bio-8082-exec-8] [org.springframework.web.servlet.view.JstlView]-[DEBUG] Added model object 'org.springframework.validation.BindingResult.item' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name 'item'
+2016-08-04 15:59:15,758 [http-bio-8082-exec-8] [org.springframework.web.servlet.view.JstlView]-[DEBUG] Forwarding to resource [/WEB-INF/jsp/item.jsp] in InternalResourceView 'item'
+2016-08-04 15:59:15,760 [http-bio-8082-exec-8] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
+2016-08-04 15:59:16,955 [http-bio-8082-exec-8] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'taotao-portal' processing GET request for [/item/desc/147002178656833.html]
+2016-08-04 15:59:16,955 [http-bio-8082-exec-8] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /item/desc/147002178656833.html
+2016-08-04 15:59:16,956 [http-bio-8082-exec-8] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Returning handler method [public java.lang.String com.taotao.portal.controller.ItemController.getItemDescById(long)]
+2016-08-04 15:59:16,956 [http-bio-8082-exec-8] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'itemController'
+2016-08-04 15:59:16,956 [http-bio-8082-exec-8] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/item/desc/147002178656833.html] is: -1
+2016-08-04 15:59:16,960 [http-bio-8082-exec-8] [org.apache.http.client.protocol.RequestAddCookies]-[DEBUG] CookieSpec selected: best-match
+2016-08-04 15:59:16,960 [http-bio-8082-exec-8] [org.apache.http.client.protocol.RequestAuthCache]-[DEBUG] Auth cache not set in the context
+2016-08-04 15:59:16,960 [http-bio-8082-exec-8] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection request: [route: {}->http://localhost:8081][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-08-04 15:59:16,960 [http-bio-8082-exec-8] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection leased: [id: 66][route: {}->http://localhost:8081][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-08-04 15:59:16,960 [http-bio-8082-exec-8] [org.apache.http.impl.execchain.MainClientExec]-[DEBUG] Opening connection {}->http://localhost:8081
+2016-08-04 15:59:16,961 [http-bio-8082-exec-8] [org.apache.http.impl.conn.HttpClientConnectionOperator]-[DEBUG] Connecting to localhost/127.0.0.1:8081
+2016-08-04 15:59:16,961 [http-bio-8082-exec-8] [org.apache.http.impl.conn.HttpClientConnectionOperator]-[DEBUG] Connection established 127.0.0.1:56853<->127.0.0.1:8081
+2016-08-04 15:59:16,961 [http-bio-8082-exec-8] [org.apache.http.impl.execchain.MainClientExec]-[DEBUG] Executing request GET /rest/item/desc/147002178656833 HTTP/1.1
+2016-08-04 15:59:16,961 [http-bio-8082-exec-8] [org.apache.http.impl.execchain.MainClientExec]-[DEBUG] Target auth state: UNCHALLENGED
+2016-08-04 15:59:16,961 [http-bio-8082-exec-8] [org.apache.http.impl.execchain.MainClientExec]-[DEBUG] Proxy auth state: UNCHALLENGED
+2016-08-04 15:59:16,961 [http-bio-8082-exec-8] [org.apache.http.headers]-[DEBUG] http-outgoing-66 >> GET /rest/item/desc/147002178656833 HTTP/1.1
+2016-08-04 15:59:16,961 [http-bio-8082-exec-8] [org.apache.http.headers]-[DEBUG] http-outgoing-66 >> Host: localhost:8081
+2016-08-04 15:59:16,961 [http-bio-8082-exec-8] [org.apache.http.headers]-[DEBUG] http-outgoing-66 >> Connection: Keep-Alive
+2016-08-04 15:59:16,961 [http-bio-8082-exec-8] [org.apache.http.headers]-[DEBUG] http-outgoing-66 >> User-Agent: Apache-HttpClient/4.3.5 (java 1.5)
+2016-08-04 15:59:16,961 [http-bio-8082-exec-8] [org.apache.http.headers]-[DEBUG] http-outgoing-66 >> Accept-Encoding: gzip,deflate
+2016-08-04 15:59:16,961 [http-bio-8082-exec-8] [org.apache.http.wire]-[DEBUG] http-outgoing-66 >> "GET /rest/item/desc/147002178656833 HTTP/1.1[\r][\n]"
+2016-08-04 15:59:16,961 [http-bio-8082-exec-8] [org.apache.http.wire]-[DEBUG] http-outgoing-66 >> "Host: localhost:8081[\r][\n]"
+2016-08-04 15:59:16,961 [http-bio-8082-exec-8] [org.apache.http.wire]-[DEBUG] http-outgoing-66 >> "Connection: Keep-Alive[\r][\n]"
+2016-08-04 15:59:16,961 [http-bio-8082-exec-8] [org.apache.http.wire]-[DEBUG] http-outgoing-66 >> "User-Agent: Apache-HttpClient/4.3.5 (java 1.5)[\r][\n]"
+2016-08-04 15:59:16,961 [http-bio-8082-exec-8] [org.apache.http.wire]-[DEBUG] http-outgoing-66 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-08-04 15:59:16,961 [http-bio-8082-exec-8] [org.apache.http.wire]-[DEBUG] http-outgoing-66 >> "[\r][\n]"
+2016-08-04 15:59:16,965 [http-bio-8082-exec-8] [org.apache.http.wire]-[DEBUG] http-outgoing-66 << "HTTP/1.1 200 OK[\r][\n]"
+2016-08-04 15:59:16,965 [http-bio-8082-exec-8] [org.apache.http.wire]-[DEBUG] http-outgoing-66 << "Server: Apache-Coyote/1.1[\r][\n]"
+2016-08-04 15:59:16,965 [http-bio-8082-exec-8] [org.apache.http.wire]-[DEBUG] http-outgoing-66 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-08-04 15:59:16,965 [http-bio-8082-exec-8] [org.apache.http.wire]-[DEBUG] http-outgoing-66 << "Transfer-Encoding: chunked[\r][\n]"
+2016-08-04 15:59:16,965 [http-bio-8082-exec-8] [org.apache.http.wire]-[DEBUG] http-outgoing-66 << "Date: Thu, 04 Aug 2016 07:59:16 GMT[\r][\n]"
+2016-08-04 15:59:16,965 [http-bio-8082-exec-8] [org.apache.http.wire]-[DEBUG] http-outgoing-66 << "[\r][\n]"
+2016-08-04 15:59:16,965 [http-bio-8082-exec-8] [org.apache.http.wire]-[DEBUG] http-outgoing-66 << "18cf[\r][\n]"
+2016-08-04 15:59:16,965 [http-bio-8082-exec-8] [org.apache.http.wire]-[DEBUG] http-outgoing-66 << "{"status":200,"msg":"OK","data":{"itemId":147002178656833,"created":1470021787000,"updated":1470021787000,"itemDesc":"<div class=\"detail-correction\" style=\"margin:0px;padding:8px 0px 8px 10px;color:#666666;font-family:Arial, Verdana, [0xe5][0xae][0x8b][0xe4][0xbd][0x93];background-color:#FFFFFF;\">\r\n\t<b></b>[0xe5][0xa6][0x82][0xe6][0x9e][0x9c][0xe6][0x82][0xa8][0xe5][0x8f][0x91][0xe7][0x8e][0xb0][0xe5][0x95][0x86][0xe5][0x93][0x81][0xe4][0xbf][0xa1][0xe6][0x81][0xaf][0xe4][0xb8][0x8d][0xe5][0x87][0x86][0xe7][0xa1][0xae][0xef][0xbc][0x8c]<a href=\"http://club.360buy.com/jdvote/skucheck.aspx?skuid=1601991&amp;cid1=9987&amp;cid2=653&amp;cid3=655\" target=\"_blank\">[0xe6][0xac][0xa2][0xe8][0xbf][0x8e][0xe7][0xba][0xa0][0xe9][0x94][0x99]</a> \r\n</div>\r\n<div class=\"detail-content-item\" style=\"margin:0px;padding:0px;color:#666666;font-family:Arial, Verdana, [0xe5][0xae][0x8b][0xe4][0xbd][0x93];\">\r\n\t<div id=\"activity_header\" style=\"margin:0px;padding:0px;\">\r\n\t\t<div style=\"margin:0px;padding:0px;text-align:center;\">\r\n\t\t\t<a href=\"http://sale.jd.com/act/g5iCqmlGj6M.html\" target=\"_blank\"><img alt=\"\" class=\"\" src=\"http://img30.360buyimg.com/jgsq-productsoa/jfs/t2335/76/2772778342/119550/27969d5b/5719c1e0Nf441c22b.jpg\" /></a> \r\n\t\t</div>\r\n\t\t<div style=\"margin:0px;padding:0px;text-align:center;\">\r\n\t\t\t<a href=\"http://sale.jd.com/act/WiNnX1aSZ8dLU.html\" target=\"_blank\"><img alt=\"\" class=\"\" src=\"http://img30.360buyimg.com/jgsq-productsoa/jfs/t3010/48/416174550/64139/78ec1ec6/579eb9bfNcdd9062e.jpg\" /></a><br />\r\n\t\t</div>\r\n\t\t<div style=\"margin:0px;padding:0px;text-align:center;\">\r\n\t\t\t<a href=\"http://sale.jd.com/act/02ZCO1Nqk7eALJw.html\" target=\"_blank\"><img alt=\"\" class=\"\" src=\"http://img30.360buyimg.com/jgsq-productsoa/jfs/t2614/32/3841257755/111152/e4648110/5799d93aN8cf32229.jpg\" /></a><br />\r\n\t\t</div>\r\n\t</div>\r\n\t<div id=\"J-detail-content\" style=\"margin:0px;padding:0px;\">\r\n\t\t<div align=\"center\" style=\"margin:0px;padding:0px;\">\r\n\t\t\t<a href=\"http://sale.jd.com/act/ng3DIrKkeFlux6c.html\" target=\"_blank\"><img alt=\"\" class=\"\" src=\"http://img30.360buyimg.com/jgsq-productsoa/jfs/t2764/291/2583927483/19264/8eabd2d2/576a1a2fN8f1bdb18.jpg\" /></a> \r\n\t\t</div>\r\n\t\t<div align=\"center\" style=\"margin:0px;padding:0px;\">\r\n\t\t\t<img alt=\"\" class=\"\" src=\"http://img30.360buyimg.com/jgsq-productsoa/jfs/t835/14/907668727/136938/326afbc6/555415fcN10b423cc.jpg\" /><img alt=\"\" class=\"\" src=\"http://img30.360buyimg.com/jgsq-productsoa/jfs/t925/210/822933265/229988/ef1c6d9a/5554162dNd2a8010e.jpg\" /><img alt=\"\" class=\"\" src=\"http://img30.360buyimg.com/jgsq-productsoa/jfs/t1597/83/60510085/272829/6f2cf154/55541637Nfe1f572e.jpg\" /><img alt=\"\" class=\"\" src=\"http://img30.360buyimg.com/jgsq-productsoa/jfs/t844/58/887890207/294083/f778f3d0/55541642N2dd78309.jpg\" /><img alt=\"\" height=\"670\" width=\"740\" class=\"\" src=\"http://img30.360buyimg.com/jgsq-productsoa/jfs/t1471/324/700994002/240554/c953d6b7/55a4e644Nef32839b.jpg\" /><img alt=\"\" class=\"\" src=\"http://img30.360buyimg.com/jgsq-productsoa/jfs/t1054/9/868559829/330821/803e03a5/5554165bN8e5a9fd9.jpg\" /><img alt=\"\" class=\"\" src=\"http://img30.360buyimg.com/jgsq-productsoa/jfs/t1420/259/63019839/310002/65894ce5/555416f2N79367788.jpg\" /><br />\r\n\t\t</div>\r\n\t\t<div align=\"center\" style=\"margin:0px;padding:0px;\">\r\n\t\t\t<img id=\"detail-tag-id-23\" alt=\"\" class=\"\" src=\"http://img30.360buyimg.com/jgsq-productsoa/jfs/t592/253/836071434/10674/1fab707a/548f9846N3a773d38.jpg\" /><br />\r\n\t\t</div>\r\n\t\t<div align=\"center\" style=\"margin:0px;padding:0px;\">\r\n\t\t\t<img alt=\"\" class=\"\" src=\"http://img30.360buyimg.com/jgsq-productsoa/jfs/t1465/240/1177999342/139826/af061dd7/55e51b1cN98a2f52e.jpg\" /> \r\n\t\t</div>\r\n\t\t<div align=\"center\" style=\"margin:0px;padding:0px;\">\r\n\t\t\t<img alt=\"\" class=\"\" src=\"http://img30.360buyimg.com/jgsq-productsoa/jfs/t1831/104/1363358941/133247/7b5dbb52/55e54d4fN41f80b94.jpg\" /> \r\n\t\t</div>\r\n\t\t<div align=\"center\" style=\"margin:0px;padding:0px;\">\r\n\t\t\t<img alt=\"\" class=\"\" src=\"http://img30.360buyimg.com/jgsq-productsoa/jfs/t1669/300/1200109074/167122/aa4ef272/55e552d8N0471f29d.jpg\" /> \r\n\t\t</div>\r\n\t\t<div align=\"center\" style=\"margin:0px;padding:0px;\">\r\n\t\t\t<img alt=\"\" class=\"\" src=\"http://img30.360buyimg.com/jgsq-productsoa/jfs/t1744/143/1362325255/204138/2fbd0c33/55e46cd0Nf8da6156.jpg\" /> \r\n\t\t</div>\r\n\t\t<div align=\"center\" style=\"margin:0px;padding:0px;\">\r\n\t\t\t<img alt=\"\" class=\"\" src=\"http://img30.360buyimg.com/jgsq-productsoa/jfs/t1372/356/64868621/220525/cb8309ff/555413c8Nce866fcd.jpg\" /> \r\n\t\t</div>\r\n\t\t<div align=\"center\" style=\"margin:0px;padding:0px;\">\r\n\t\t\t<img alt=\"\" class=\"\" src=\"http://img30.360buyimg.com/jgsq-productsoa/jfs/t1183/96/873689576/80059/35283daf/555413cfN0bd7947f.jpg\" /> \r\n\t\t</div>\r\n\t\t<div align=\"center\" style=\"margin:0px;padding:0px;\">\r\n\t\t\t<img alt=\"\" class=\"\" src=\"http://img30.360buyimg.com/jgsq-productsoa/jfs/t1660/360/1164889149/211039/67e4f79c/55e46d62Ne9fc99a3.jpg\" /> \r\n\t\t</div>\r\n\t\t<div align=\"center\" style=\"margin:0px;padding:0px;\">\r\n\t\t\t<br />\r\n\t\t</div>\r\n\t\t<div align=\"center\" style=\"margin:0px;padding:0px;\">\r\n\t\t\t<img alt=\"\" height=\"893\" width=\"740\" class=\"\" src=\"http://img30.360buyimg.com/jgsq-productsoa/jfs/t1432/41/1345059517/179012/5aa9a58a/55c496beN25079ce1.jpg\" /> \r\n\t\t</div>\r\n\t\t<div align=\"center\" style=\"margin:0px;padding:0px;\">\r\n\t\t\t<img alt=\"\" class=\"\" src=\"http://img30.360buyimg.com/jgsq-productsoa/jfs/t1660/37/1191362878/172285/21ad452/55e46ecdN57d49d06.jpg\" /> \r\n\t\t</div>\r\n\t\t<div align=\"center\" style=\"margin:0px;padding:0px;\">\r\n\t\t\t<img alt=\"\" height=\"674\" width=\"740\" class=\"\" src=\"http://img30.360buyimg.com/jgsq-productsoa/jfs/t1162/236/885556172/156563/8fc2d785/555414c8N89d9f7e5.jpg\" /> \r\n\t\t</div>\r\n\t\t<div align=\"center\" style=\"margin:0px;padding:0px;\">\r\n\t\t\t<img alt=\"\" class=\"\" src=\"http://img30.360buyimg.com/jgsq-productsoa/jfs/t1444/35/63195439/195045/7c3952e9/55541523Nfa4295ae.jpg\" /><br />\r\n\t\t</div>\r\n<br />\r\n\t</div>\r\n\t<div id=\"activity_footer\" style=\"margin:0px;padding:0px;\">\r\n\t\t<div style=\"margin:0px;padding:0px;text-align:center;\">\r\n\t\t\t<img alt=\"\" class=\"\" src=\"http://img30.360buyimg.com/jgsq-productsoa/jfs/t2377/242/2384397158/60576/a04f684/56d6410fN1790e08c.jpg\" /> \r\n\t\t</div>\r\n\t</div>\r\n</div>"}}[\r][\n]"
+2016-08-04 15:59:16,965 [http-bio-8082-exec-8] [org.apache.http.headers]-[DEBUG] http-outgoing-66 << HTTP/1.1 200 OK
+2016-08-04 15:59:16,965 [http-bio-8082-exec-8] [org.apache.http.headers]-[DEBUG] http-outgoing-66 << Server: Apache-Coyote/1.1
+2016-08-04 15:59:16,965 [http-bio-8082-exec-8] [org.apache.http.headers]-[DEBUG] http-outgoing-66 << Content-Type: application/json;charset=UTF-8
+2016-08-04 15:59:16,965 [http-bio-8082-exec-8] [org.apache.http.headers]-[DEBUG] http-outgoing-66 << Transfer-Encoding: chunked
+2016-08-04 15:59:16,965 [http-bio-8082-exec-8] [org.apache.http.headers]-[DEBUG] http-outgoing-66 << Date: Thu, 04 Aug 2016 07:59:16 GMT
+2016-08-04 15:59:16,965 [http-bio-8082-exec-8] [org.apache.http.impl.execchain.MainClientExec]-[DEBUG] Connection can be kept alive indefinitely
+2016-08-04 15:59:16,966 [http-bio-8082-exec-8] [org.apache.http.wire]-[DEBUG] http-outgoing-66 << "0[\r][\n]"
+2016-08-04 15:59:16,966 [http-bio-8082-exec-8] [org.apache.http.wire]-[DEBUG] http-outgoing-66 << "[\r][\n]"
+2016-08-04 15:59:16,966 [http-bio-8082-exec-8] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection [id: 66][route: {}->http://localhost:8081] can be kept alive indefinitely
+2016-08-04 15:59:16,966 [http-bio-8082-exec-8] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection released: [id: 66][route: {}->http://localhost:8081][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-08-04 15:59:16,966 [http-bio-8082-exec-8] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection manager is shutting down
+2016-08-04 15:59:16,966 [http-bio-8082-exec-8] [org.apache.http.impl.conn.DefaultManagedHttpClientConnection]-[DEBUG] http-outgoing-66: Close connection
+2016-08-04 15:59:16,966 [http-bio-8082-exec-8] [org.apache.http.impl.conn.DefaultManagedHttpClientConnection]-[DEBUG] http-outgoing-66: Close connection
+2016-08-04 15:59:16,966 [http-bio-8082-exec-8] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection manager shut down
+2016-08-04 15:59:16,966 [http-bio-8082-exec-8] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] Invoking ResponseBodyAdvice chain for body=<div class="detail-correction" style="margin:0px;padding:8px 0px 8px 10px;color:#666666;font-family:Arial, Verdana, 宋体;background-color:#FFFFFF;">
+	<b></b>如果您发现商品信息不准确，<a href="http://club.360buy.com/jdvote/skucheck.aspx?skuid=1601991&amp;cid1=9987&amp;cid2=653&amp;cid3=655" target="_blank">欢迎纠错</a> 
+</div>
+<div class="detail-content-item" style="margin:0px;padding:0px;color:#666666;font-family:Arial, Verdana, 宋体;">
+	<div id="activity_header" style="margin:0px;padding:0px;">
+		<div style="margin:0px;padding:0px;text-align:center;">
+			<a href="http://sale.jd.com/act/g5iCqmlGj6M.html" target="_blank"><img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t2335/76/2772778342/119550/27969d5b/5719c1e0Nf441c22b.jpg" /></a> 
+		</div>
+		<div style="margin:0px;padding:0px;text-align:center;">
+			<a href="http://sale.jd.com/act/WiNnX1aSZ8dLU.html" target="_blank"><img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t3010/48/416174550/64139/78ec1ec6/579eb9bfNcdd9062e.jpg" /></a><br />
+		</div>
+		<div style="margin:0px;padding:0px;text-align:center;">
+			<a href="http://sale.jd.com/act/02ZCO1Nqk7eALJw.html" target="_blank"><img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t2614/32/3841257755/111152/e4648110/5799d93aN8cf32229.jpg" /></a><br />
+		</div>
+	</div>
+	<div id="J-detail-content" style="margin:0px;padding:0px;">
+		<div align="center" style="margin:0px;padding:0px;">
+			<a href="http://sale.jd.com/act/ng3DIrKkeFlux6c.html" target="_blank"><img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t2764/291/2583927483/19264/8eabd2d2/576a1a2fN8f1bdb18.jpg" /></a> 
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t835/14/907668727/136938/326afbc6/555415fcN10b423cc.jpg" /><img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t925/210/822933265/229988/ef1c6d9a/5554162dNd2a8010e.jpg" /><img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1597/83/60510085/272829/6f2cf154/55541637Nfe1f572e.jpg" /><img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t844/58/887890207/294083/f778f3d0/55541642N2dd78309.jpg" /><img alt="" height="670" width="740" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1471/324/700994002/240554/c953d6b7/55a4e644Nef32839b.jpg" /><img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1054/9/868559829/330821/803e03a5/5554165bN8e5a9fd9.jpg" /><img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1420/259/63019839/310002/65894ce5/555416f2N79367788.jpg" /><br />
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img id="detail-tag-id-23" alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t592/253/836071434/10674/1fab707a/548f9846N3a773d38.jpg" /><br />
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1465/240/1177999342/139826/af061dd7/55e51b1cN98a2f52e.jpg" /> 
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1831/104/1363358941/133247/7b5dbb52/55e54d4fN41f80b94.jpg" /> 
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1669/300/1200109074/167122/aa4ef272/55e552d8N0471f29d.jpg" /> 
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1744/143/1362325255/204138/2fbd0c33/55e46cd0Nf8da6156.jpg" /> 
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1372/356/64868621/220525/cb8309ff/555413c8Nce866fcd.jpg" /> 
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1183/96/873689576/80059/35283daf/555413cfN0bd7947f.jpg" /> 
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1660/360/1164889149/211039/67e4f79c/55e46d62Ne9fc99a3.jpg" /> 
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<br />
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" height="893" width="740" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1432/41/1345059517/179012/5aa9a58a/55c496beN25079ce1.jpg" /> 
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1660/37/1191362878/172285/21ad452/55e46ecdN57d49d06.jpg" /> 
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" height="674" width="740" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1162/236/885556172/156563/8fc2d785/555414c8N89d9f7e5.jpg" /> 
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1444/35/63195439/195045/7c3952e9/55541523Nfa4295ae.jpg" /><br />
+		</div>
+<br />
+	</div>
+	<div id="activity_footer" style="margin:0px;padding:0px;">
+		<div style="margin:0px;padding:0px;text-align:center;">
+			<img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t2377/242/2384397158/60576/a04f684/56d6410fN1790e08c.jpg" /> 
+		</div>
+	</div>
+</div>
+2016-08-04 15:59:16,967 [http-bio-8082-exec-8] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] After ResponseBodyAdvice chain body=<div class="detail-correction" style="margin:0px;padding:8px 0px 8px 10px;color:#666666;font-family:Arial, Verdana, 宋体;background-color:#FFFFFF;">
+	<b></b>如果您发现商品信息不准确，<a href="http://club.360buy.com/jdvote/skucheck.aspx?skuid=1601991&amp;cid1=9987&amp;cid2=653&amp;cid3=655" target="_blank">欢迎纠错</a> 
+</div>
+<div class="detail-content-item" style="margin:0px;padding:0px;color:#666666;font-family:Arial, Verdana, 宋体;">
+	<div id="activity_header" style="margin:0px;padding:0px;">
+		<div style="margin:0px;padding:0px;text-align:center;">
+			<a href="http://sale.jd.com/act/g5iCqmlGj6M.html" target="_blank"><img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t2335/76/2772778342/119550/27969d5b/5719c1e0Nf441c22b.jpg" /></a> 
+		</div>
+		<div style="margin:0px;padding:0px;text-align:center;">
+			<a href="http://sale.jd.com/act/WiNnX1aSZ8dLU.html" target="_blank"><img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t3010/48/416174550/64139/78ec1ec6/579eb9bfNcdd9062e.jpg" /></a><br />
+		</div>
+		<div style="margin:0px;padding:0px;text-align:center;">
+			<a href="http://sale.jd.com/act/02ZCO1Nqk7eALJw.html" target="_blank"><img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t2614/32/3841257755/111152/e4648110/5799d93aN8cf32229.jpg" /></a><br />
+		</div>
+	</div>
+	<div id="J-detail-content" style="margin:0px;padding:0px;">
+		<div align="center" style="margin:0px;padding:0px;">
+			<a href="http://sale.jd.com/act/ng3DIrKkeFlux6c.html" target="_blank"><img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t2764/291/2583927483/19264/8eabd2d2/576a1a2fN8f1bdb18.jpg" /></a> 
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t835/14/907668727/136938/326afbc6/555415fcN10b423cc.jpg" /><img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t925/210/822933265/229988/ef1c6d9a/5554162dNd2a8010e.jpg" /><img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1597/83/60510085/272829/6f2cf154/55541637Nfe1f572e.jpg" /><img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t844/58/887890207/294083/f778f3d0/55541642N2dd78309.jpg" /><img alt="" height="670" width="740" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1471/324/700994002/240554/c953d6b7/55a4e644Nef32839b.jpg" /><img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1054/9/868559829/330821/803e03a5/5554165bN8e5a9fd9.jpg" /><img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1420/259/63019839/310002/65894ce5/555416f2N79367788.jpg" /><br />
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img id="detail-tag-id-23" alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t592/253/836071434/10674/1fab707a/548f9846N3a773d38.jpg" /><br />
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1465/240/1177999342/139826/af061dd7/55e51b1cN98a2f52e.jpg" /> 
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1831/104/1363358941/133247/7b5dbb52/55e54d4fN41f80b94.jpg" /> 
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1669/300/1200109074/167122/aa4ef272/55e552d8N0471f29d.jpg" /> 
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1744/143/1362325255/204138/2fbd0c33/55e46cd0Nf8da6156.jpg" /> 
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1372/356/64868621/220525/cb8309ff/555413c8Nce866fcd.jpg" /> 
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1183/96/873689576/80059/35283daf/555413cfN0bd7947f.jpg" /> 
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1660/360/1164889149/211039/67e4f79c/55e46d62Ne9fc99a3.jpg" /> 
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<br />
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" height="893" width="740" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1432/41/1345059517/179012/5aa9a58a/55c496beN25079ce1.jpg" /> 
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1660/37/1191362878/172285/21ad452/55e46ecdN57d49d06.jpg" /> 
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" height="674" width="740" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1162/236/885556172/156563/8fc2d785/555414c8N89d9f7e5.jpg" /> 
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1444/35/63195439/195045/7c3952e9/55541523Nfa4295ae.jpg" /><br />
+		</div>
+<br />
+	</div>
+	<div id="activity_footer" style="margin:0px;padding:0px;">
+		<div style="margin:0px;padding:0px;text-align:center;">
+			<img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t2377/242/2384397158/60576/a04f684/56d6410fN1790e08c.jpg" /> 
+		</div>
+	</div>
+</div>
+2016-08-04 15:59:16,968 [http-bio-8082-exec-8] [org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor]-[DEBUG] Written [<div class="detail-correction" style="margin:0px;padding:8px 0px 8px 10px;color:#666666;font-family:Arial, Verdana, 宋体;background-color:#FFFFFF;">
+	<b></b>如果您发现商品信息不准确，<a href="http://club.360buy.com/jdvote/skucheck.aspx?skuid=1601991&amp;cid1=9987&amp;cid2=653&amp;cid3=655" target="_blank">欢迎纠错</a> 
+</div>
+<div class="detail-content-item" style="margin:0px;padding:0px;color:#666666;font-family:Arial, Verdana, 宋体;">
+	<div id="activity_header" style="margin:0px;padding:0px;">
+		<div style="margin:0px;padding:0px;text-align:center;">
+			<a href="http://sale.jd.com/act/g5iCqmlGj6M.html" target="_blank"><img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t2335/76/2772778342/119550/27969d5b/5719c1e0Nf441c22b.jpg" /></a> 
+		</div>
+		<div style="margin:0px;padding:0px;text-align:center;">
+			<a href="http://sale.jd.com/act/WiNnX1aSZ8dLU.html" target="_blank"><img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t3010/48/416174550/64139/78ec1ec6/579eb9bfNcdd9062e.jpg" /></a><br />
+		</div>
+		<div style="margin:0px;padding:0px;text-align:center;">
+			<a href="http://sale.jd.com/act/02ZCO1Nqk7eALJw.html" target="_blank"><img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t2614/32/3841257755/111152/e4648110/5799d93aN8cf32229.jpg" /></a><br />
+		</div>
+	</div>
+	<div id="J-detail-content" style="margin:0px;padding:0px;">
+		<div align="center" style="margin:0px;padding:0px;">
+			<a href="http://sale.jd.com/act/ng3DIrKkeFlux6c.html" target="_blank"><img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t2764/291/2583927483/19264/8eabd2d2/576a1a2fN8f1bdb18.jpg" /></a> 
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t835/14/907668727/136938/326afbc6/555415fcN10b423cc.jpg" /><img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t925/210/822933265/229988/ef1c6d9a/5554162dNd2a8010e.jpg" /><img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1597/83/60510085/272829/6f2cf154/55541637Nfe1f572e.jpg" /><img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t844/58/887890207/294083/f778f3d0/55541642N2dd78309.jpg" /><img alt="" height="670" width="740" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1471/324/700994002/240554/c953d6b7/55a4e644Nef32839b.jpg" /><img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1054/9/868559829/330821/803e03a5/5554165bN8e5a9fd9.jpg" /><img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1420/259/63019839/310002/65894ce5/555416f2N79367788.jpg" /><br />
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img id="detail-tag-id-23" alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t592/253/836071434/10674/1fab707a/548f9846N3a773d38.jpg" /><br />
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1465/240/1177999342/139826/af061dd7/55e51b1cN98a2f52e.jpg" /> 
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1831/104/1363358941/133247/7b5dbb52/55e54d4fN41f80b94.jpg" /> 
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1669/300/1200109074/167122/aa4ef272/55e552d8N0471f29d.jpg" /> 
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1744/143/1362325255/204138/2fbd0c33/55e46cd0Nf8da6156.jpg" /> 
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1372/356/64868621/220525/cb8309ff/555413c8Nce866fcd.jpg" /> 
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1183/96/873689576/80059/35283daf/555413cfN0bd7947f.jpg" /> 
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1660/360/1164889149/211039/67e4f79c/55e46d62Ne9fc99a3.jpg" /> 
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<br />
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" height="893" width="740" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1432/41/1345059517/179012/5aa9a58a/55c496beN25079ce1.jpg" /> 
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1660/37/1191362878/172285/21ad452/55e46ecdN57d49d06.jpg" /> 
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" height="674" width="740" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1162/236/885556172/156563/8fc2d785/555414c8N89d9f7e5.jpg" /> 
+		</div>
+		<div align="center" style="margin:0px;padding:0px;">
+			<img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t1444/35/63195439/195045/7c3952e9/55541523Nfa4295ae.jpg" /><br />
+		</div>
+<br />
+	</div>
+	<div id="activity_footer" style="margin:0px;padding:0px;">
+		<div style="margin:0px;padding:0px;text-align:center;">
+			<img alt="" class="" src="http://img30.360buyimg.com/jgsq-productsoa/jfs/t2377/242/2384397158/60576/a04f684/56d6410fN1790e08c.jpg" /> 
+		</div>
+	</div>
+</div>] as "text/html;charset=utf-8" using [org.springframework.http.converter.StringHttpMessageConverter@132c447]
+2016-08-04 15:59:16,968 [http-bio-8082-exec-8] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Null ModelAndView returned to DispatcherServlet with name 'taotao-portal': assuming HandlerAdapter completed request handling
+2016-08-04 15:59:16,968 [http-bio-8082-exec-8] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
+2016-08-04 15:59:17,122 [http-bio-8082-exec-8] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'taotao-portal' processing GET request for [/cart/add/147002178656833.html]
+2016-08-04 15:59:17,122 [http-bio-8082-exec-8] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /cart/add/147002178656833.html
+2016-08-04 15:59:17,123 [http-bio-8082-exec-8] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Returning handler method [public java.lang.String com.taotao.portal.controller.CartController.addCartItem(long,java.lang.Integer,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)]
+2016-08-04 15:59:17,123 [http-bio-8082-exec-8] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'cartController'
+2016-08-04 15:59:17,123 [http-bio-8082-exec-8] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/cart/add/147002178656833.html] is: -1
+2016-08-04 15:59:17,124 [http-bio-8082-exec-8] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Rendering view [org.springframework.web.servlet.view.RedirectView: name 'redirect:/cart/success.html'; URL [/cart/success.html]] in DispatcherServlet with name 'taotao-portal'
+2016-08-04 15:59:17,124 [http-bio-8082-exec-8] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
+2016-08-04 15:59:17,127 [http-bio-8082-exec-8] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'taotao-portal' processing GET request for [/cart/success.html]
+2016-08-04 15:59:17,128 [http-bio-8082-exec-8] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /cart/success.html
+2016-08-04 15:59:17,128 [http-bio-8082-exec-8] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Returning handler method [public java.lang.String com.taotao.portal.controller.CartController.showSuccess()]
+2016-08-04 15:59:17,128 [http-bio-8082-exec-8] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'cartController'
+2016-08-04 15:59:17,128 [http-bio-8082-exec-8] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/cart/success.html] is: -1
+2016-08-04 15:59:17,129 [http-bio-8082-exec-8] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Rendering view [org.springframework.web.servlet.view.JstlView: name 'cartSuccess'; URL [/WEB-INF/jsp/cartSuccess.jsp]] in DispatcherServlet with name 'taotao-portal'
+2016-08-04 15:59:17,129 [http-bio-8082-exec-8] [org.springframework.web.servlet.view.JstlView]-[DEBUG] Forwarding to resource [/WEB-INF/jsp/cartSuccess.jsp] in InternalResourceView 'cartSuccess'
+2016-08-04 15:59:17,131 [http-bio-8082-exec-8] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
+2016-08-04 15:59:18,089 [http-bio-8082-exec-8] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'taotao-portal' processing GET request for [/cart/cart.html]
+2016-08-04 15:59:18,089 [http-bio-8082-exec-8] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /cart/cart.html
+2016-08-04 15:59:18,090 [http-bio-8082-exec-8] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Returning handler method [public java.lang.String com.taotao.portal.controller.CartController.showCart(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.Model)]
+2016-08-04 15:59:18,090 [http-bio-8082-exec-8] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'cartController'
+2016-08-04 15:59:18,090 [http-bio-8082-exec-8] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/cart/cart.html] is: -1
+2016-08-04 15:59:18,090 [http-bio-8082-exec-8] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Rendering view [org.springframework.web.servlet.view.JstlView: name 'cart'; URL [/WEB-INF/jsp/cart.jsp]] in DispatcherServlet with name 'taotao-portal'
+2016-08-04 15:59:18,090 [http-bio-8082-exec-8] [org.springframework.web.servlet.view.JstlView]-[DEBUG] Added model object 'cartList' of type [java.util.ArrayList] to request in view with name 'cart'
+2016-08-04 15:59:18,090 [http-bio-8082-exec-8] [org.springframework.web.servlet.view.JstlView]-[DEBUG] Forwarding to resource [/WEB-INF/jsp/cart.jsp] in InternalResourceView 'cart'
+2016-08-04 15:59:18,092 [http-bio-8082-exec-8] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
+2016-08-04 15:59:19,412 [http-bio-8082-exec-8] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'taotao-portal' processing GET request for [/order/order-cart.html]
+2016-08-04 15:59:19,412 [http-bio-8082-exec-8] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /order/order-cart.html
+2016-08-04 15:59:19,412 [http-bio-8082-exec-8] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Returning handler method [public java.lang.String com.taotao.portal.controller.OrderController.showOrderCart(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.Model)]
+2016-08-04 15:59:19,412 [http-bio-8082-exec-8] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'orderController'
+2016-08-04 15:59:19,412 [http-bio-8082-exec-8] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/order/order-cart.html] is: -1
+2016-08-04 15:59:19,416 [http-bio-8082-exec-8] [org.apache.http.client.protocol.RequestAddCookies]-[DEBUG] CookieSpec selected: best-match
+2016-08-04 15:59:19,417 [http-bio-8082-exec-8] [org.apache.http.client.protocol.RequestAuthCache]-[DEBUG] Auth cache not set in the context
+2016-08-04 15:59:19,417 [http-bio-8082-exec-8] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection request: [route: {}->http://localhost:8084][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-08-04 15:59:19,417 [http-bio-8082-exec-8] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection leased: [id: 67][route: {}->http://localhost:8084][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-08-04 15:59:19,417 [http-bio-8082-exec-8] [org.apache.http.impl.execchain.MainClientExec]-[DEBUG] Opening connection {}->http://localhost:8084
+2016-08-04 15:59:19,417 [http-bio-8082-exec-8] [org.apache.http.impl.conn.HttpClientConnectionOperator]-[DEBUG] Connecting to localhost/127.0.0.1:8084
+2016-08-04 15:59:19,418 [http-bio-8082-exec-8] [org.apache.http.impl.conn.HttpClientConnectionOperator]-[DEBUG] Connection established 127.0.0.1:56854<->127.0.0.1:8084
+2016-08-04 15:59:19,418 [http-bio-8082-exec-8] [org.apache.http.impl.execchain.MainClientExec]-[DEBUG] Executing request GET /user/token/c725fe55-cbfd-41b5-9e24-3bdf96f6bd20 HTTP/1.1
+2016-08-04 15:59:19,418 [http-bio-8082-exec-8] [org.apache.http.impl.execchain.MainClientExec]-[DEBUG] Target auth state: UNCHALLENGED
+2016-08-04 15:59:19,418 [http-bio-8082-exec-8] [org.apache.http.impl.execchain.MainClientExec]-[DEBUG] Proxy auth state: UNCHALLENGED
+2016-08-04 15:59:19,418 [http-bio-8082-exec-8] [org.apache.http.headers]-[DEBUG] http-outgoing-67 >> GET /user/token/c725fe55-cbfd-41b5-9e24-3bdf96f6bd20 HTTP/1.1
+2016-08-04 15:59:19,418 [http-bio-8082-exec-8] [org.apache.http.headers]-[DEBUG] http-outgoing-67 >> Host: localhost:8084
+2016-08-04 15:59:19,418 [http-bio-8082-exec-8] [org.apache.http.headers]-[DEBUG] http-outgoing-67 >> Connection: Keep-Alive
+2016-08-04 15:59:19,418 [http-bio-8082-exec-8] [org.apache.http.headers]-[DEBUG] http-outgoing-67 >> User-Agent: Apache-HttpClient/4.3.5 (java 1.5)
+2016-08-04 15:59:19,418 [http-bio-8082-exec-8] [org.apache.http.headers]-[DEBUG] http-outgoing-67 >> Accept-Encoding: gzip,deflate
+2016-08-04 15:59:19,418 [http-bio-8082-exec-8] [org.apache.http.wire]-[DEBUG] http-outgoing-67 >> "GET /user/token/c725fe55-cbfd-41b5-9e24-3bdf96f6bd20 HTTP/1.1[\r][\n]"
+2016-08-04 15:59:19,418 [http-bio-8082-exec-8] [org.apache.http.wire]-[DEBUG] http-outgoing-67 >> "Host: localhost:8084[\r][\n]"
+2016-08-04 15:59:19,418 [http-bio-8082-exec-8] [org.apache.http.wire]-[DEBUG] http-outgoing-67 >> "Connection: Keep-Alive[\r][\n]"
+2016-08-04 15:59:19,418 [http-bio-8082-exec-8] [org.apache.http.wire]-[DEBUG] http-outgoing-67 >> "User-Agent: Apache-HttpClient/4.3.5 (java 1.5)[\r][\n]"
+2016-08-04 15:59:19,418 [http-bio-8082-exec-8] [org.apache.http.wire]-[DEBUG] http-outgoing-67 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-08-04 15:59:19,418 [http-bio-8082-exec-8] [org.apache.http.wire]-[DEBUG] http-outgoing-67 >> "[\r][\n]"
+2016-08-04 15:59:19,423 [http-bio-8082-exec-8] [org.apache.http.wire]-[DEBUG] http-outgoing-67 << "HTTP/1.1 200 OK[\r][\n]"
+2016-08-04 15:59:19,423 [http-bio-8082-exec-8] [org.apache.http.wire]-[DEBUG] http-outgoing-67 << "Server: Apache-Coyote/1.1[\r][\n]"
+2016-08-04 15:59:19,423 [http-bio-8082-exec-8] [org.apache.http.wire]-[DEBUG] http-outgoing-67 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-08-04 15:59:19,423 [http-bio-8082-exec-8] [org.apache.http.wire]-[DEBUG] http-outgoing-67 << "Transfer-Encoding: chunked[\r][\n]"
+2016-08-04 15:59:19,423 [http-bio-8082-exec-8] [org.apache.http.wire]-[DEBUG] http-outgoing-67 << "Date: Thu, 04 Aug 2016 07:59:19 GMT[\r][\n]"
+2016-08-04 15:59:19,423 [http-bio-8082-exec-8] [org.apache.http.wire]-[DEBUG] http-outgoing-67 << "[\r][\n]"
+2016-08-04 15:59:19,423 [http-bio-8082-exec-8] [org.apache.http.wire]-[DEBUG] http-outgoing-67 << "9a[\r][\n]"
+2016-08-04 15:59:19,423 [http-bio-8082-exec-8] [org.apache.http.wire]-[DEBUG] http-outgoing-67 << "{"status":200,"msg":"OK","data":{"id":61,"username":"wangwu3","password":null,"phone":"887","email":null,"created":1470190034000,"updated":1470190034000}}[\r][\n]"
+2016-08-04 15:59:19,423 [http-bio-8082-exec-8] [org.apache.http.headers]-[DEBUG] http-outgoing-67 << HTTP/1.1 200 OK
+2016-08-04 15:59:19,424 [http-bio-8082-exec-8] [org.apache.http.headers]-[DEBUG] http-outgoing-67 << Server: Apache-Coyote/1.1
+2016-08-04 15:59:19,424 [http-bio-8082-exec-8] [org.apache.http.headers]-[DEBUG] http-outgoing-67 << Content-Type: application/json;charset=UTF-8
+2016-08-04 15:59:19,424 [http-bio-8082-exec-8] [org.apache.http.headers]-[DEBUG] http-outgoing-67 << Transfer-Encoding: chunked
+2016-08-04 15:59:19,424 [http-bio-8082-exec-8] [org.apache.http.headers]-[DEBUG] http-outgoing-67 << Date: Thu, 04 Aug 2016 07:59:19 GMT
+2016-08-04 15:59:19,424 [http-bio-8082-exec-8] [org.apache.http.impl.execchain.MainClientExec]-[DEBUG] Connection can be kept alive indefinitely
+2016-08-04 15:59:19,424 [http-bio-8082-exec-8] [org.apache.http.wire]-[DEBUG] http-outgoing-67 << "0[\r][\n]"
+2016-08-04 15:59:19,424 [http-bio-8082-exec-8] [org.apache.http.wire]-[DEBUG] http-outgoing-67 << "[\r][\n]"
+2016-08-04 15:59:19,424 [http-bio-8082-exec-8] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection [id: 67][route: {}->http://localhost:8084] can be kept alive indefinitely
+2016-08-04 15:59:19,424 [http-bio-8082-exec-8] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection released: [id: 67][route: {}->http://localhost:8084][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-08-04 15:59:19,425 [http-bio-8082-exec-8] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection manager is shutting down
+2016-08-04 15:59:19,425 [http-bio-8082-exec-8] [org.apache.http.impl.conn.DefaultManagedHttpClientConnection]-[DEBUG] http-outgoing-67: Close connection
+2016-08-04 15:59:19,425 [http-bio-8082-exec-8] [org.apache.http.impl.conn.DefaultManagedHttpClientConnection]-[DEBUG] http-outgoing-67: Close connection
+2016-08-04 15:59:19,425 [http-bio-8082-exec-8] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection manager shut down
+2016-08-04 15:59:19,426 [http-bio-8082-exec-8] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Rendering view [org.springframework.web.servlet.view.JstlView: name 'order-cart'; URL [/WEB-INF/jsp/order-cart.jsp]] in DispatcherServlet with name 'taotao-portal'
+2016-08-04 15:59:19,426 [http-bio-8082-exec-8] [org.springframework.web.servlet.view.JstlView]-[DEBUG] Added model object 'cartList' of type [java.util.ArrayList] to request in view with name 'order-cart'
+2016-08-04 15:59:19,427 [http-bio-8082-exec-8] [org.springframework.web.servlet.view.JstlView]-[DEBUG] Forwarding to resource [/WEB-INF/jsp/order-cart.jsp] in InternalResourceView 'order-cart'
+2016-08-04 15:59:19,431 [http-bio-8082-exec-8] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request

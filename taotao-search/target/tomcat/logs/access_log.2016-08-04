@@ -1,0 +1,5 @@
+127.0.0.1 - - [04/Aug/2016:15:40:24 +0800] "GET /search/query?page=1&q=%E5%A4%A7%E7%B1%B3%E6%89%8B%E6%9C%BA HTTP/1.1" 200 21379 http-bio-8083-exec-1 1490
+127.0.0.1 - - [04/Aug/2016:15:47:10 +0800] "GET /search/query?page=1&q=dami+shouji HTTP/1.1" 200 101 http-bio-8083-exec-3 19
+127.0.0.1 - - [04/Aug/2016:15:47:15 +0800] "GET /search/query?page=1&q=%E5%A4%A7%E7%B1%B3%E6%89%8B%E6%9C%BA HTTP/1.1" 200 21379 http-bio-8083-exec-5 55
+127.0.0.1 - - [04/Aug/2016:15:52:47 +0800] "GET /search/query?page=1&q=%E5%A4%A7%E7%B1%B3%E6%89%8B%E6%9C%BA HTTP/1.1" 200 21379 http-bio-8083-exec-7 45
+127.0.0.1 - - [04/Aug/2016:15:59:14 +0800] "GET /search/query?page=1&q=%E5%A4%A7%E7%B1%B3%E6%89%8B%E6%9C%BA HTTP/1.1" 200 21379 http-bio-8083-exec-9 49
